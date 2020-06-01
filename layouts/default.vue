@@ -1,10 +1,10 @@
 <template>
-  <div class="main p-4 mt-0 mb-0 mr-auto ml-auto">
+  <div class="main flex flex-col p-4 mt-0 mb-0 mr-auto ml-auto">
     <div class="container">
       <Header />
       <nuxt />
-      <Footer />
     </div>
+    <Footer />
   </div>
 </template>
 <script>
@@ -141,5 +141,6 @@ a:hover {
 .container {
   max-width: 800px;
   margin: 0 auto;
+  flex: 1;
 }
 </style>
