@@ -1,41 +1,35 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        wycd
-      </h1>
-      <h2 class="subtitle">
-        Resources on how to be an ally
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class="container flex flex-col justify-center">
+    <section class="p-2 mt-8 mb-2 flex">
+      <div class="flex flex-col justify-center p-4">
+        <h1 class="text-left mb-4">What Can I Do?</h1>
+        <p class="text-left mb-4">
+          During this time it may be difficult to know how you can help or what
+          you should say.
+        </p>
+        <p class="text-left mb-4">
+          To help, we've compiled a guide of way to help under three different
+          themes. Giving. Reading. Showing up. Pick one that resonates most for
+          you.
+        </p>
+        <p class="text-left mb-4">
+          <!-- This is an open-source guide - so if you have a resource you'd like to
+        add, you can do one of two things:
+      </p> -->
+        </p>
       </div>
-    </div>
+      <div class="p-4">
+        <img
+          src="/images/blm-illustration.svg"
+          alt="black lives matter illustration"
+        />
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
+export default {};
 </script>
 
 <style>
@@ -44,34 +38,7 @@ export default {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+img {
+  height: 400px;
 }
 </style>
