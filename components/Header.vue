@@ -21,4 +21,8 @@ export default {
 .nav-link {
   color: #202040;
 }
+
+.nav-link:hover {
+  color: rgb(255, 20, 147);
+}
 </style>
