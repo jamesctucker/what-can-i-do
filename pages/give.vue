@@ -4,8 +4,7 @@
       <h1 class="p-2 mt-8 mb-2">❤️ Give</h1>
       <p class="p-2">
         One of the most powerful ways you can make a difference is through
-        donating. Here is a list of respected organizations that are currently
-        fighting for racial equality.
+        donating. Please consider the following organizations.
       </p>
     </section>
     <section>
