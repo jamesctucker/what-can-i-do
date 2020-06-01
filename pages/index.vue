@@ -9,8 +9,10 @@
         </p>
         <p class="text-left mb-4">
           To help, we've compiled a guide of ways to help under three different
-          themes. Giving. Reading. Showing up. Pick one that resonates most for
-          you.
+          themes: <nuxt-link to="/give" class="p-link">Giving</nuxt-link>,
+          <nuxt-link to="/read" class="p-link">Reading</nuxt-link>, and
+          <nuxt-link to="/showup" class="p-link">Showing Up.</nuxt-link> Pick
+          the one that resonates most for you.
         </p>
         <p class="text-left mb-4">
           <!-- This is an open-source guide - so if you have a resource you'd like to
@@ -40,5 +42,9 @@ export default {};
 */
 img {
   height: 400px;
+}
+
+.p-link {
+  text-decoration: underline;
 }
 </style>
