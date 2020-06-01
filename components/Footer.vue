@@ -21,9 +21,6 @@ export default {
 <style scoped>
 footer {
   width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 a {
   color: #202040;
