@@ -8,7 +8,7 @@
           you should say.
         </p>
         <p class="text-left mb-4">
-          To help, we've compiled a guide of way to help under three different
+          To help, we've compiled a guide of ways to help under three different
           themes. Giving. Reading. Showing up. Pick one that resonates most for
           you.
         </p>
