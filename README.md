@@ -1,6 +1,8 @@
 # wycd
 
-> Resources on how to be an ally
+## How to Contribute
+
+If you have a resource you'd like to add, simply fork this repo to make your changes. Once you're ready, open a PR and it will be reviewed within 24 hours.
 
 ## Build Setup
 
